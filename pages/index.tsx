@@ -1,9 +1,14 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import { Header } from '../src/components'
 
 const Home: NextPage = () => {
-  return <h1>Yo</h1>
+  return (
+    <>
+      <Header />
+    </>
+  )
 }
 
 export default Home
